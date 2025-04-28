@@ -7,6 +7,7 @@ while True:
     total_gasto += preco_produto
     if c == 0:
         menor_preco = preco_produto
+        nome_menor_preco = nome_produto
         c = 1
     if preco_produto > 1000:
         mais_1k += 1
